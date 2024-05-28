@@ -28,7 +28,7 @@ function callApiRequest() {
   // Hacer una petición para un usuario con ID especifico
   axios
     .get(
-      "https://3.11.80.35/iot-car-control/back-end/apis/getRegistro.php"
+      "https://18.132.71.3/iot-car-control/back-end/apis/getRegistro.php"
     )
     .then(function (response) {
       // manejar respuesta exitosa
